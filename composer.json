@@ -1,0 +1,28 @@
+{
+  "name": "dominikvytisk/maclookup",
+  "description": "Retrieve vendor MAC Address",
+  "type": "library",
+  "keywords": ["lookup","mac","mac address"],
+  "homepage": "https://github.com/dominikvytisk/maclookup",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Dominik Výtisk",
+      "email": "dominikvyt@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "DominikVytisk\\MacLookup\\": "src/"
+    }
+  },
+  "require": {
+    "php": "^7.1",
+    "ext-sqlite3": "*",
+    "ext-pdo": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7"
+  }
+}
